@@ -1,1 +1,1 @@
-***My i3wm Config***
+***My i3wm and NixOS Config***
