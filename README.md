@@ -1,5 +1,7 @@
 ***My i3wm Configuration***
+
 ---
+
 Installation:
 ```
 $ git clone https://github.com/iamGHOST755/dotfiles.git ~/dotfiles
@@ -7,8 +9,10 @@ $ cd dotfiles
 $ chmod +x install.sh
 $ sudo bash install.sh
 ```
-Then reboot! 
+Then reboot!
+
 ---
+
 **WARNING**
 
 This config is editing, please don't use now.
