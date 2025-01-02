@@ -9,6 +9,8 @@ $ sudo bash install.sh
 ```
 Then reboot! 
 
+**THIS CONFIG IS EDITING, PLEASE DON'T USE THIS NOW.**
+
 | | Shortcuts |
 | :----- | :------ |
 | Rofi | `Super` + `D` |
