@@ -8,9 +8,7 @@ $ chmod +x install.sh
 $ sudo bash install.sh
 ```
 Then reboot! 
-
 ---
-
 **WARNING**
 
 This config is editing, please don't use now.
