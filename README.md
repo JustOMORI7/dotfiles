@@ -1,5 +1,5 @@
 ***My i3wm Configuration***
-
+---
 Installation:
 ```
 $ git clone https://github.com/iamGHOST755/dotfiles.git ~/dotfiles
@@ -8,10 +8,10 @@ $ chmod +x install.sh
 $ sudo bash install.sh
 ```
 Then reboot! 
-
+---
 **WARNING**
 *THIS CONFIG IS EDITING, PLEASE DON'T USE THIS NOW.*
-
+---
 | | Shortcuts |
 | :----- | :------ |
 | Rofi | `Super` + `D` |
