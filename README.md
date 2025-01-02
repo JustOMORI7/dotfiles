@@ -1,6 +1,6 @@
 ***My i3wm Configuration***
----
 
+---
 Installation:
 ```
 $ git clone https://github.com/iamGHOST755/dotfiles.git ~/dotfiles
