@@ -24,6 +24,6 @@ Then reboot!
 | Lock Screen | `Super` + `L` |
 
 ---
-**WARNING**
+**WARNING!**
 
 *This config is editing, please don't use now.*
