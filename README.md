@@ -11,10 +11,6 @@ $ sudo bash install.sh
 Then reboot!
 
 ---
-**WARNING**
-
-This config is editing, please don't use now.
-
 | | Shortcuts |
 | :----- | :------ |
 | Rofi | `Super` + `D` |
@@ -26,3 +22,8 @@ This config is editing, please don't use now.
 | Power Menu | `Super` + `Shift` + `E` |
 | Thunar | `Super` + `T` |
 | Lock Screen | `Super` + `L` |
+
+---
+**WARNING**
+
+*This config is editing, please don't use now.*
