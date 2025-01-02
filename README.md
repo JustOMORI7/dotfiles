@@ -10,7 +10,8 @@ $ sudo bash install.sh
 Then reboot! 
 ---
 **WARNING**
-*THIS CONFIG IS EDITING, PLEASE DON'T USE THIS NOW.*
+
+*This config is editing, please don't use now.*
 ---
 | | Shortcuts |
 | :----- | :------ |
