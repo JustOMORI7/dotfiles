@@ -11,7 +11,7 @@ Then reboot!
 ---
 **WARNING**
 
-*This config is editing, please don't use now.*
+This config is editing, please don't use now.
 ---
 | | Shortcuts |
 | :----- | :------ |
