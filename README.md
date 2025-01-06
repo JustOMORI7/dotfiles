@@ -15,7 +15,7 @@ Then reboot!
 | :----- | :------ |
 | Rofi | `Super` + `D` |
 | Toggle Float | `Super` + `Shift` + `Space` |
-| Close Active Window | `Super` + `PrtScrn` |
+| Close Active Window | `Super` + `Q` |
 | Screenshot | `Super` + `Shift` + `S` |
 | Terminal | `Super` + `Return` |
 | Firefox | `Super` + `F` |
