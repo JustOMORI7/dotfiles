@@ -1,5 +1,5 @@
 #!/bin/bash
-pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter
+pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar thunar-volman gvfs gvfs-mtp lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter
 
 systemctl enable lightdm
 
