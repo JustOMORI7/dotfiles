@@ -34,8 +34,6 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # polybar
 exec_always "bash ~/.config/polybar/launch.sh --hack"
 
-exec "xrandr --output Virtual-1 --mode 1920x1080"
-
 # set wallpaper
 exec_always "feh --bg-scale ~/wallpaper/wallpaper.jpg"
 
@@ -88,10 +86,10 @@ bindsym $mod+Shift+e exec "bash ~/.config/i3/powermenu.sh"
 bindsym $mod+Shift+s exec --no-startup-id maim -s "/home/$USER/Pictures/$(date)"
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+scedilla focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+scedilla focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -100,10 +98,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+scedilla move right
+#bindsym $mod+Shift+j move left
+#bindsym $mod+Shift+k move down
+#bindsym $mod+Shift+l move up
+#bindsym $mod+Shift+scedilla move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
