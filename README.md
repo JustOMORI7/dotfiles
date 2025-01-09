@@ -30,4 +30,4 @@ Then reboot!
 
 ---
 **Screenshot:**
-![screenshot1](https://github.com/iamGHOST755/dotfiles/blob/main/screenshot-1.png)
+![screenshot1](https://github.com/iamGHOST755/dotfiles/blob/main/screenshot-1.jpg)
