@@ -24,10 +24,5 @@ Then reboot!
 | Lock Screen | `Super` + `L` |
 
 ---
-**WARNING!**
-
-*This config is editing, please don't use now.*
-
----
 **Screenshot:**
 ![screenshot1](https://github.com/iamGHOST755/dotfiles/blob/main/screenshot-1.jpg)
