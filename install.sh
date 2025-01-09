@@ -26,7 +26,7 @@ cp -r /home/$USER/dotfiles/terminator /home/$USER/.config/terminator
 rm -rf /home/$USER/.config/nwg-look
 cp -r /home/$USER/dotfiles/nwg-look /home/$USER/.config/nwg-look
 
-chmod +x /home/$USER/.config/polybar/hack/scripts/*
+chmod -R +x /home/$USER/.config/polybar/
 
 xdg-user-dirs-update
 
