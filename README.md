@@ -6,7 +6,7 @@ Installation:
 $ git clone https://github.com/iamGHOST755/dotfiles.git ~/dotfiles
 $ cd dotfiles
 $ chmod +x install.sh
-$ sudo bash install.sh
+$ ./install.sh
 ```
 Then reboot!
 
