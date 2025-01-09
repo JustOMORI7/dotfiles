@@ -1,27 +1,33 @@
 #!/bin/bash
-pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar thunar-volman gvfs gvfs-mtp lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter
 
-systemctl enable lightdm
+clear
 
-rm -rf "~/.config/i3"
-cp "~/dotfiles/i3" "~/.config/i3"
+sudo pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar thunar-volman gvfs gvfs-mtp lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter xdg-user-dirs
+sudo systemctl enable lightdm
 
-rm -rf "~/wallpaper"
-cp "~/dotfiles/wallpaper" "~/wallpaper"
+rm -rf /home/$USER/.config/i3
+cp -r /home/$USER/dotfiles/i3 /home/$USER/.config/i3
 
-[[ ! -d "~/.local/share/fonts"]] && mkdir -p "~/.local/share/fonts"
-cp -rf "~/dotfiles/polybar/fonts/*" "~/.local/share/fonts"
+rm -rf /home/$USER/wallpaper
+cp -r /home/$USER/dotfiles/wallpaper /home/$USER/wallpaper
 
-rm -rf "~/.config/polybar"
-cp -rf "~/dotfiles/polybar/simple" "~/config/polybar"
+mkdir -p "/home/$USER/.local/share/fonts"
+cp -rf /home/$USER/dotfiles/polybar/fonts/* /home/$USER/.local/share/fonts
 
-rm -rf "~/.config/gtk-3.0"
-cp "~/dotfiles/gtk-3.0" "~/.config/gtk-3.0"
+rm -rf /home/$USER/.config/polybar
+cp -rf /home/$USER/dotfiles/polybar/simple /home/$USER/.config/polybar
 
-rm -rf "~/.config/terminator"
-cp "~/dotfiles/terminator" "~/.config/terminator"
+rm -rf /home/$USER/.config/gtk-3.0
+cp -r /home/$USER/dotfiles/gtk-3.0 /home/$USER/.config/gtk-3.0
 
-rm -rf "~/.config/nwg-look"
-cp "~/dotfiles/nwg-look" "~/.config/nwg-look"
+rm -rf /home/$USER/.config/terminator
+cp -r /home/$USER/dotfiles/terminator /home/$USER/.config/terminator
+
+rm -rf /home/$USER/.config/nwg-look
+cp -r /home/$USER/dotfiles/nwg-look /home/$USER/.config/nwg-look
+
+chmod +x /home/$USER/.config/polybar/hack/scripts/*
+
+xdg-user-dirs-update
 
 echo "Installation finished. Please reboot your system."
