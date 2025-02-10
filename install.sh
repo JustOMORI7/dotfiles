@@ -2,7 +2,7 @@
 
 clear
 
-sudo pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar thunar-volman gvfs gvfs-mtp lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter brightnessctl pavucontrol xdg-user-dirs maim
+sudo pacman -S i3-wm i3lock feh terminator firefox rofi polybar picom btop thunar thunar-volman gvfs gvfs-mtp lxappearance nwg-look ttf-font-awesome otf-font-awesome ttf-cascadia-code-nerd materia-gtk-theme papirus-icon-theme mate-polkit lightdm lightdm-gtk-greeter brightnessctl pavucontrol xdg-user-dirs maim xorg-setxkbmap
 sudo systemctl enable lightdm
 
 rm -rf /home/$USER/.config/i3
