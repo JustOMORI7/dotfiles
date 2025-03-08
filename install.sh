@@ -15,7 +15,7 @@ mkdir -p "/home/$USER/.local/share/fonts"
 cp -rf /home/$USER/dotfiles/polybar/fonts/* /home/$USER/.local/share/fonts
 
 rm -rf /home/$USER/.config/polybar
-cp -rf /home/$USER/dotfiles/polybar/simple /home/$USER/.config/polybar
+cp -rf /home/$USER/dotfiles/polybar/simple/hack/* /home/$USER/.config/polybar
 
 rm -rf /home/$USER/.config/gtk-3.0
 cp -r /home/$USER/dotfiles/gtk-3.0 /home/$USER/.config/gtk-3.0
