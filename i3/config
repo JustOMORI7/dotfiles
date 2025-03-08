@@ -33,7 +33,7 @@ exec_always /usr/lib/mate-polkit/polkit-mate-authentication-agent-1
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # polybar
-exec_always "bash ~/.config/polybar/launch.sh --hack"
+exec_always "bash ~/.config/polybar/launch.sh"
 
 # set wallpaper
 exec_always "feh --bg-scale ~/wallpaper/wallpaper.jpg"
