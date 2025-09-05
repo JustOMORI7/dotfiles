@@ -3,7 +3,7 @@
 ---
 Installation:
 ```
-$ git clone https://github.com/iamGHOST755/dotfiles.git ~/dotfiles
+$ git clone https://github.com/JustOMORI7/dotfiles.git ~/dotfiles
 $ cd dotfiles
 $ chmod +x install.sh
 $ ./install.sh
